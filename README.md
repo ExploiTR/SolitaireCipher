@@ -17,6 +17,10 @@ Apache 2.0
 `READ_SMS` && `RECEIVE_SMS` : Check if sent SMS is *really* sent & provide a toast notification  
 `INTERNET` : Debugging (!?)
 
+## Why not the officially provided Java codes?
+
+I don't understand cards except the main alogrithm by Schneier. 
+
 ## Screenshots
 
 ![1](https://raw.githubusercontent.com/ExploiTR/SolitaireCipher/master/screenshots/device-2018-07-27-205014.png)
