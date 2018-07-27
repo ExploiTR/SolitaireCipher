@@ -19,7 +19,7 @@ Apache 2.0
 
 ## Why not the officially provided Java codes?
 
-I don't understand cards except the main alogrithm by Schneier. 
+I don't understand cards except the main alogrithm by Schneier. Can't push code into my repo which I don't understand.
 
 ## Screenshots
 
