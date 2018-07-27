@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/enc"
+        android:icon="@drawable/ic_encrypt"
+        android:title="@string/encrypt"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/des"
+        android:icon="@drawable/ic_decrypt"
+        android:title="@string/decrypt"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_coder_all_inf"
+        android:title="@string/about"
+        app:showAsAction="ifRoom" />
+</menu>

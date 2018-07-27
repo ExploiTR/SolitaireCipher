@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Solitaire</string>
+    <string name="wiki_1">The Solitaire cryptographic algorithm was designed by Bruce Schneier at the request of Neal Stephenson for use by field agents in his novel Cryptonomicon, enabling them to communicate securely without having to rely on electronics or having to carry incriminating tools,It was designed to be a manual cryptosystem calculated with an ordinary deck of playing cards. In Cryptonomicon, this algorithm was originally called Pontifex to hide the fact that it involved playing cards. One of the motivations behind Solitaire\'s creation is that in totalitarian environments, a deck of cards is far more affordable (and less incriminating) than a personal computer with an array of cryptological utilities. However, as Schneier warns in the appendix of Cryptonomicon, just about everyone with an interest in cryptanalysis will know about this algorithm. (Wikipedia)</string>
+    <string name="first_look">First Look</string>
+    <string name="wiki_2">The algorithm generates a stream of values which are combined with the message to encrypt and decrypt it. Each value of the keystream is to be used for one value of the message, thus the keystream will need to be the same length as the message. Remove all punctuation and convert the characters to the same case (I\'m on UpperCase). Convert all the characters to their serial numerical values, A = 1, B = 2, etc., Z = 26. To encrypt a message, add each keystream value to its corresponding character in the plaintext, rolling over back to 1 if the resulting value exceeds 26 (modulo 26 arithmetic). To decrypt, subtract each keystream value from its corresponding character in the ciphertext, rolling back up to 26 if the resulting value should be lower than 1. (In Maths this is called modular arithmetic.)</string>
+    <string name="encrypting_decrypting">Encrypting/Decrypting</string>
+    <string name="cryptanalytic_security">Cryptanalytic security</string>
+    <string name="wiki_3">It should be noted that there is a chance the algorithm may repeat numbers since there is some bias (as pointed out by people like Paul Crowley in his Problems with Bruce Schneier\'s \'solitaire\'). While the probability that several numbers will be repeated consistently is rather low, you might want to take a look at his (and related) analysis nevertheless. After all, “having bias” is what broke RC4s neck too. (Yet, RC4 was used in a completely different context where several KBs of data were encrypted with a single key… which added to its bias becoming a weakness.) Also, it should not be ignored that if you encrypt with the same deck order and the same keyphrase twice (or more), then both messages can be solved by dragging probable cribs and expanding the solution… without ever attacking the Solitaire key-generation algorithm itself! This practically means Solitaire has the same weaknesses as an OTP system: key-distribution and user-discipline.</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="some_to_hide">some to hide</string>
+    <string name="enter_plaintext">Enter Plaintext</string>
+    <string name="enter_key">Enter Key</string>
+    <string name="abigkey">ABIGKEY</string>
+    <string name="cipher_text">Cipher Text</string>
+    <string name="encrypted_text_will_appear_here">Encrypted Text Will Appear Here</string>
+    <string name="choose_sim_slot">Choose SIM Slot</string>
+    <string name="some_hidden">Some hidden</string>
+    <string name="enter_cipher">Enter CipherText</string>
+    <string name="plain_">Plain Text</string>
+    <string name="decrypted_text_will_appear_here">Decrypted Text Will Appear Here</string>
+    <string name="about">About</string>
+    <string name="_1">Solitaire is an cryptographic algorithm crated by Bruce Schneier.</string>
+    <string name="_2">Allows people to encrypt/decrypt data without having a deep knowledge of complex maths or machines.</string>
+    <string name="_3"><![CDATA[This application is a practical implementation of that though it brakes the primary need -> (\'Without Machines\').]]></string>
+    <string name="_4">You have read about it from the main page(I think). Much of it is described there.</string>
+    <string name="_5">This application will allow you to encrypt/decrypt data in Solitaire\'s algorithm.(Don\'t take it too seriously) and you can copy the simple/ cipher text and even can directly SMS it through this app.</string>
+    <string name="description">Description</string>
+    <string name="algorithmic_changes">Algorithmic Changes</string>
+    <string name="_6">Wait! You want to send a message containing 500 characters? Oops, you will also need to remember the key too which is also 500 characters!</string>
+    <string name="_7">So, I\'ll be making some changes on the key if you don\'t want a 500 character key. Write a 6 character key (assume \'abacas\').</string>
+    <string name="_8"><![CDATA[Okay, the next 496 characters will be \'s\' - the last character. (making it abacasssssssssssssssssssssss......<><> )]]></string>
+    <string name="_9">{I know not the best way - but, solitaire isn\'t aimed to be AES}</string>
+    <string name="_10">So, if you try to decrypt it you will have to do it yourself, else, if you tell this to do it, it will do it for you.</string>
+    <string name="external_libraries">External Libraries</string>
+    <string name="_support_lib_ag">(1) Android Support Library \n Copyright © 2015 The Android Open Source Project \nLicensed under the Apache License, Version 2.0 (the \'License\'); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \'AS IS\' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</string>
+    <string name="_rfab_ag">(2) RapidFloatingActionButton \n Copyright 2018 Wangjie Gulu \n Licensed under the Apache License, Version 2.0 (the \'License\'); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \'AS IS\' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</string>
+</resources>
