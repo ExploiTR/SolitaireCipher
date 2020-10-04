@@ -111,5 +111,14 @@
             android:layout_height="wrap_content"
             android:text="@string/_rfab_ag"/>
 
+        <TextView
+            style="@style/TextAppearance.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacy_policy" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/please_visit_https_github_com_exploitr_solitairecipher_blob_master_pv_policy_md"/>
     </LinearLayout>
 </ScrollView>
