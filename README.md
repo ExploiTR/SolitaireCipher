@@ -11,10 +11,6 @@ https://www.schneier.com/academic/solitaire/
 Apache 2.0
 
 ## Permission Description
-
-`SEND_SMS` : You know that.  
-`READ_PHONE_STATE` : Provide you option to choose SIM slot in order to send messages [Android 5.0++]  
-`READ_SMS` && `RECEIVE_SMS` : Check if sent SMS is *really* sent & provide a toast notification  
 `INTERNET` : Debugging (!?)
 
 ## Why not the officially provided Java codes?
